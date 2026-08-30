@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Romany Noshi - Social Media Specialist"
+    >
+
+    <title>
+        <%= data.name %> | Social Media Specialist
+    </title>
+
+    <!-- Google Font -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<nav class="navbar">
+
+    <div class="container nav-content">
+
+        <a href="#home" class="logo">
+
+            RN<span>.</span>
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="#home">
+                الرئيسية
+            </a>
+
+            <a href="#work">
+                الأعمال
+            </a>
+
+            <a href="#results">
+                النتائج
+            </a>
+
+            <a href="#services">
+                الخدمات
+            </a>
+
+            <a href="#contact">
+                تواصل معي
+            </a>
+
+        </div>
+
+
+        <a href="#contact" class="nav-button">
+            Let's Work
+        </a>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<header class="hero" id="home">
+
+    <div class="container hero-container">
+
+
+        <div class="hero-content">
+
+
+            <span class="status-tag">
+
+                <span class="status-dot"></span>
+
+                متاح لاستلام مشاريع جديدة
+
+            </span>
+
+
+            <span class="hero-small-title">
+
+                SOCIAL MEDIA SPECIALIST
+
+            </span>
+
+
+            <h1>
+
+                <%= data.name %>
+
+                <br>
+
+                <span>
+                    Social Media Specialist
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                <%= data.bio %>
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+
+                <a href="#work" class="primary-button">
+
+                    مشاهدة أعمالي
+
+                    <span>
+                        ←
+                    </span>
+
+                </a>
+
+
+                <a href="#contact" class="secondary-button">
+
+                    Let's Work Together
+
+                </a>
+
+
+            </div>
+
+
+
+            <!-- STATS -->
+
+            <div class="hero-stats">
+
+                <% data.stats.forEach(stat => { %>
+
+                    <div class="stat">
+
+                        <strong>
+                            <%= stat.number %>
+                        </strong>
+
+                        <span>
+                            <%= stat.label %>
+                        </span>
+
+                    </div>
+
+                <% }); %>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- HERO VISUAL -->
+
+        <div class="hero-visual">
+
+            <div class="visual-card">
+
+
+                <div class="visual-header">
+
+                    <span>
+                        Social Media Performance
+                    </span>
+
+                    <span class="live">
+                        ● LIVE
+                    </span>
+
+                </div>
+
+
+                <div class="chart-area">
+
+                    <div class="chart-line">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="visual-metrics">
+
+
+                    <div>
+
+                        <small>
+                            ROAS
+                        </small>
+
+                        <strong>
+                            6.1x
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            SALES
+                        </small>
+
+                        <strong>
+                            +5.1K
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            REACH
+                        </small>
+
+                        <strong>
+                            +4.5M
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     BRANDS
+===================================================== -->
+
+<section class="brands-section">
+
+    <div class="container">
+
+
+        <p class="trusted-title">
+
+            TRUSTED EXPERIENCE WITH
+
+        </p>
+
+
+        <div class="brands-grid">
+
+
+            <% data.brands.forEach(brand => { %>
+
+
+                <div class="brand-item">
+
+
+                    <div class="brand-logo">
+
+                        <img
+                            src="<%= brand.logo %>"
+                            alt="<%= brand.name %>"
+                        >
+
+                    </div>
+
+
+                    <span>
+
+                        <%= brand.name %>
+
+                    </span>
+
+
+                </div>
+
+
+            <% }); %>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro-section">
+
+    <div class="container intro-grid">
+
+
+        <div>
+
+            <span class="section-label">
+                WHAT I DO
+            </span>
+
+
+            <h2>
+
+                I don't just manage
+
+                <br>
+
+                social media.
+
+                <br>
+
+                I build
+
+                <span>
+                    strong brands.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div>
+
+
+            <p class="intro-text">
+
+                أعمل على بناء حضور قوي للبراند على Social Media
+                من خلال استراتيجية محتوى واضحة، Creative Ideas،
+                وفهم حقيقي للجمهور المستهدف.
+
+            </p>
+
+
+            <p class="intro-text">
+
+                من أول Content Planning وCreative Strategy
+                لحد Community Management وتحليل النتائج
+                وتحسين أداء الحملات والمحتوى.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="services-section" id="services">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-label">
+
+                EXPERTISE
+
+            </span>
+
+
+            <h2>
+
+                What I Do
+
+            </h2>
+
+
+            <p>
+
+                Social Media solutions مصممة لبناء حضور قوي وتحقيق نتائج قابلة للقياس.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="services-grid">
+
+
+            <% data.services.forEach((service, index) => { %>
+
+
+                <div class="service-card">
+
+
+                    <div class="service-icon">
+
+                        <%= service.icon %>
+
+                    </div>
+
+
+                    <h3>
+
+                        <%= service.title %>
+
+                    </h3>
+
+
+                    <p>
+
+                        <%= service.description %>
+
+                    </p>
+
+
+                    <span class="service-number">
+
+                        0<%= index + 1 %>
+
+                    </span>
+
+
+                </div>
+
+
+            <% }); %>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WORK / PROJECTS
+===================================================== -->
+
+<section class="work-section" id="work">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-label">
+
+                SELECTED WORK
+
+            </span>
+
+
+            <h2>
+
+                Campaigns & Projects
+
+            </h2>
+
+
+            <p>
+
+                بعض من المشاريع والـ Social Media Campaigns التي تم العمل عليها.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="projects-grid">
+
+
+            <% data.projects.forEach(project => { %>
+
+
+                <article class="project-card">
+
+
+                    <div class="project-image">
+
+
+                        <img
+                            src="<%= project.logo %>"
+                            alt="<%= project.title %>"
+                        >
+
+
+                        <span class="project-overlay">
+
+                            PROJECT <%= project.id %>
+
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="project-content">
+
+
+                        <span class="category-badge">
+
+                            <%= project.category %>
+
+                        </span>
+
+
+                        <h3>
+
+                            <%= project.title %>
+
+                        </h3>
+
+
+                        <p>
+
+                            <%= project.description %>
+
+                        </p>
+
+
+
+                        <% if (project.canvaLink !== "#") { %>
+
+
+                            <a
+                                href="<%= project.canvaLink %>"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+
+                                View Project
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+                        <% } else { %>
+
+
+                            <span class="project-link disabled-link">
+
+                                Project Details Coming Soon
+
+                            </span>
+
+
+                        <% } %>
+
+
+                    </div>
+
+
+                </article>
+
+
+            <% }); %>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CASE STUDIES
+===================================================== -->
+
+<section class="results-section" id="results">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-label">
+
+                PERFORMANCE
+
+            </span>
+
+
+            <h2>
+
+                Results That Matter
+
+            </h2>
+
+
+            <p>
+
+                أرقام ونتائج مختارة من الحملات والمشاريع.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="cases-grid">
+
+
+            <% data.caseStudies.forEach(caseStudy => { %>
+
+
+                <article class="case-card">
+
+
+                    <div class="case-header">
+
+
+                        <div>
+
+                            <span class="case-label">
+
+                                CLIENT
+
+                            </span>
+
+
+                            <h3>
+
+                                <%= caseStudy.client %>
+
+                            </h3>
+
+                        </div>
+
+
+                        <span class="platform-chip">
+
+                            <%= caseStudy.platform %>
+
+                        </span>
+
+
+                    </div>
+
+
+
+                    <div class="metrics">
+
+
+                        <div class="metric">
+
+                            <span>
+                                ROAS
+                            </span>
+
+
+                            <strong>
+
+                                <%= caseStudy.roas %>
+
+                            </strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <span>
+                                RESULT
+                            </span>
+
+
+                            <strong>
+
+                                <%= caseStudy.conversions %>
+
+                            </strong>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="case-result">
+
+                        <span>
+                            ✓
+                        </span>
+
+                        <%= caseStudy.result %>
+
+                    </div>
+
+
+                </article>
+
+
+            <% }); %>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section class="education-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+
+            <span class="section-label">
+
+                EDUCATION & DEVELOPMENT
+
+            </span>
+
+
+            <h2>
+
+                Continuous Learning
+
+            </h2>
+
+
+        </div>
+
+
+
+        <div class="education-card">
+
+
+            <div class="education-icon">
+
+                🎓
+
+            </div>
+
+
+            <div class="education-content">
+
+
+                <span>
+
+                    PROFESSIONAL DEVELOPMENT
+
+                </span>
+
+
+                <h3>
+
+                    <%= data.diploma %>
+
+                </h3>
+
+
+                <p>
+
+                    <%= data.diplomaDetails %>
+
+                </p>
+
+
+            </div>
+
+
+            <div class="education-badge">
+
+                DIPLOMA
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section class="skills-section">
+
+    <div class="container skills-container">
+
+
+        <div>
+
+
+            <span class="section-label">
+
+                TOOLS & SKILLS
+
+            </span>
+
+
+            <h2>
+
+                Social Media Skillset
+
+            </h2>
+
+
+        </div>
+
+
+        <div class="skills-list">
+
+
+            <% data.skills.forEach(skill => { %>
+
+
+                <span class="skill">
+
+                    <%= skill %>
+
+                </span>
+
+
+            <% }); %>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container contact-container">
+
+
+        <div>
+
+
+            <span class="section-label">
+
+                LET'S TALK
+
+            </span>
+
+
+            <h2>
+
+                Have a brand
+
+                <br>
+
+                <span>
+                    in mind?
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                لو عندك Brand وعايز تبني حضور أقوى على Social Media،
+                خلينا نتكلم.
+
+            </p>
+
+
+            <div class="contact-info">
+
+
+                <a href="mailto:<%= data.email %>">
+
+                    <span>
+                        Email
+                    </span>
+
+                    <strong>
+
+                        <%= data.email %>
+
+                    </strong>
+
+                </a>
+
+
+                <a href="tel:+201229052714">
+
+                    <span>
+                        Phone
+                    </span>
+
+                    <strong>
+
+                        <%= data.phone %>
+
+                    </strong>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="contact-actions">
+
+
+            <a
+                href="mailto:<%= data.email %>"
+                class="contact-button primary"
+            >
+
+                Email Me
+
+                <span>
+                    ↗
+                </span>
+
+            </a>
+
+
+            <a
+                href="https://wa.me/<%= data.whatsapp %>"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-button whatsapp-button"
+            >
+
+                WhatsApp
+
+                <span>
+                    ↗
+                </span>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+
+        <div>
+
+            <strong>
+
+                <%= data.name %>
+
+            </strong>
+
+
+            <span>
+
+                Social Media Specialist
+
+            </span>
+
+        </div>
+
+
+        <p>
+
+            © 2026 <%= data.name %>.
+
+            All Rights Reserved.
+
+        </p>
+
+
+    </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
