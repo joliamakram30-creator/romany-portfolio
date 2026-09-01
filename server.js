@@ -189,7 +189,7 @@ projects: [
             "/images/photo_5809907814875468130_y.jpg",
 
         canvaLink:
-            "https://canva.link/cwrmwnoa53dwpd9"
+            "https://docs.google.com/presentation/d/15SG1CJMPiaQQLKvujms3JNZnOyCwA-Gy/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
     },
 
 
@@ -208,7 +208,7 @@ projects: [
             "/images/photo_5809907814875468128_y.jpg",
 
         canvaLink:
-            "https://canva.link/cfqalnf0y7cdnho"
+            "https://docs.google.com/presentation/d/1ZNXZS8WU7qBZPS2lgMZ5JLUk42yFRIB8/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
     },
 
 
@@ -227,7 +227,7 @@ projects: [
             "/images/photo_5809907814875468132_y.jpg",
 
         canvaLink:
-            "https://canva.link/qmk3pqw62vgm8az"
+            "https://docs.google.com/presentation/d/1Bu40h8gaCpTlkLxUrMSsian7Rghz538t/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
     },
 
 
@@ -245,8 +245,65 @@ projects: [
             "/images/photo_5809907814875468133_y.jpg",
 
         canvaLink:
-            "#"
-    }
+            "https://docs.google.com/presentation/d/14A5OGi92O0KRR6LAzJIpRzeKtZbnEIUR/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
+    },
+    {
+        id: 5,
+
+        title: "Mavin Social Media Campaign",
+
+        category: "E-Commerce / Fashion",
+
+        description:
+            "تطوير أفكار Social Media وCreative Content لبراند Fashion مع التركيز على الـ Brand Awareness والـ Engagement.",
+
+        logo:
+            "/images/photo_5809907814875468129_x.jpg",
+
+        canvaLink:
+            "https://docs.google.com/presentation/d/1VmxgKeDXpz8bR5o8slBHYrg54VkKv_mG/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
+    },
+    {
+        id: 6,
+
+        title: " qasr elkbabgi Social Media Campaign",
+
+        category: "Restaurant / F&B",
+
+        description:
+            "طوير استراتيجية Social Media وCreative Content لبراند في قطاع الـ F&B، بهدف بناء Brand Awareness، تعزيز Audience Engagement، وإيصال هوية البراند ومنتجاته من خلال محتوى إبداعي وجذاب.",
+
+        logo:
+            "/images/photo_5809907814875468131_x.jpg",
+
+        canvaLink:
+            "https://docs.google.com/presentation/d/1jgSM82T6LxR1zllKteEMwkrDif2VX-8q/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
+    },
+    {
+        id: 7,
+
+        title: " BREADFAST Social Media Campaign",
+
+        category: "Food Delivery / Social Media Campaign",
+
+        description:
+            "تطوير استراتيجية Social Media وContent Ideas لبراند متخصص في Food Delivery، مع التركيز على زيادة Brand Awareness، تعزيز Customer Engagement، وإبراز المنتجات والخدمات من خلال محتوى إبداعي مناسب للجمهور المستهدف",
+
+        logo:
+            "/images/photo_5809907814875468075_y.jpg",
+
+        canvaLink:
+            "https://docs.google.com/presentation/d/1vSGCqptz-4yXofRaVCIb6vWuLttNBvXL/edit?usp=drivesdk&ouid=115772092506770818728&rtpof=true&sd=true"
+    },
+
+
+
+
+
+
+
+
+
 
 ],
         
