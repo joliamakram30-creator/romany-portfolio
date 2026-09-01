@@ -271,7 +271,7 @@ projects: [
         category: "Restaurant / F&B",
 
         description:
-            "طوير استراتيجية Social Media وCreative Content لبراند في قطاع الـ F&B، بهدف بناء Brand Awareness، تعزيز Audience Engagement، وإيصال هوية البراند ومنتجاته من خلال محتوى إبداعي وجذاب.",
+            "تطوير استراتيجية Social Media وCreative Content لبراند في قطاع الـ F&B، بهدف بناء Brand Awareness، تعزيز Audience Engagement، وإيصال هوية البراند ومنتجاته من خلال محتوى إبداعي وجذاب.",
 
         logo:
             "/images/photo_5809907814875468131_x.jpg",
